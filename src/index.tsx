@@ -1,19 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import {Helmet} from "react-helmet";
 
-const manifestUrl = (name: string) => `.netlify/functions/manifest?name=${name}`
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
+
+const manifestUrl = (name: string, scope: string) => `.netlify/functions/manifest?name=${name}&scope=${scope}`
 
 ReactDOM.render(
   <React.StrictMode>
-      <Helmet>
-          <link id="teams_manifest" rel="manifest" href={manifestUrl("Star")}/>
-      </Helmet>
-    <App />
+    <Router>
+      <Switch>
+        <Route path="/starbucks">
+          <Helmet>
+            <link id="teams_manifest" rel="manifest" href={manifestUrl("Starbucks", "/starbucks/")} />
+          </Helmet>
+          Starbucks
+        </Route>
+        <Route path="/facebook">
+          <Helmet>
+            <link id="teams_manifest" rel="manifest" href={manifestUrl("Facebook", "/facebook/")} />
+          </Helmet>
+          Facebook
+        </Route>
+        <Route path="/facebook">
+            404
+        </Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

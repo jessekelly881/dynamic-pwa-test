@@ -1,7 +1,7 @@
 import { Handler } from '@netlify/functions'
 
 
-const getManifest = (name: string) => ({
+const getManifest = (name: string, scope: string) => ({
     name,
     short_name: name,
     description: name,
@@ -9,6 +9,7 @@ const getManifest = (name: string) => ({
     theme_color: "#ffffff",
     display: "standalone",
     start_url: `/`,
+    scope,
     icons: [
         {
             "src": "https://picsum.photos/192/192.webp",
@@ -26,7 +27,9 @@ const getManifest = (name: string) => ({
 const handler: Handler = async function(e) {
     return {
         statusCode: 200,
-        body: JSON.stringify(getManifest(e.queryStringParameters["name"] || "No Name")),
+        body: JSON.stringify(
+            getManifest(e.queryStringParameters["name"] || "No Name", e.queryStringParameters["scope"] || "")
+        ),
         headers: {
             "Content-Type": "text/html"
         }
