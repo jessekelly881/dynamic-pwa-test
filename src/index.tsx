@@ -11,8 +11,35 @@ import {
   Route,
 } from "react-router-dom";
 
-
 const manifestUrl = (name: string, scope: string) => `.netlify/functions/manifest?name=${name}&scope=${scope}`
+
+
+interface BeforeInstallPromptEvent extends Event {
+  readonly platforms: string[];
+  readonly userChoice: Promise<{
+    outcome: "accepted" | "dismissed";
+    platform: string;
+  }>;
+  prompt(): Promise<void>;
+}
+
+declare global {
+  interface WindowEventMap {
+    beforeinstallprompt: BeforeInstallPromptEvent;
+  }
+}
+
+let deferredPrompt: BeforeInstallPromptEvent;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+    deferredPrompt = e;
+});
+
+const install = async () => {
+  if (deferredPrompt !== null) {
+    deferredPrompt.prompt();
+  }
+}
 
 ReactDOM.render(
   <React.StrictMode>
@@ -23,12 +50,14 @@ ReactDOM.render(
             <link id="teams_manifest" rel="manifest" href={manifestUrl("Starbucks", "/starbucks/")} />
           </Helmet>
           Starbucks
+          <button onClick={install}>Install</button>
         </Route>
         <Route path="/facebook">
           <Helmet>
             <link id="teams_manifest" rel="manifest" href={manifestUrl("Facebook", "/facebook/")} />
           </Helmet>
           Facebook
+          <button onClick={install}>Install</button>
         </Route>
         <Route path="/facebook">
             404
