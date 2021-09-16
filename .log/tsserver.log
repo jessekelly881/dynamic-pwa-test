@@ -1,12 +1,12 @@
-Info 0    [14:21:41.028] Starting TS Server
-Info 1    [14:21:41.029] Version: 4.4.3
-Info 2    [14:21:41.029] Arguments: /Users/jessekelly/.nvm/versions/node/v14.17.0/bin/node /Users/jessekelly/projects/dynamic-pwa/node_modules/.bin/tsserver --logFile /Users/jessekelly/projects/dynamic-pwa/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/lc/y2dbm6r52hj5ljsq41phk2sm0000gn/T/19211ef8e44d0d7aec642290f3654034/tscancellation*
-Info 3    [14:21:41.029] Platform: darwin NodeVersion: 14 CaseSensitive: false
-Info 4    [14:21:41.029] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [14:21:41.037] Search path: /Users/jessekelly/projects/dynamic-pwa/src
-Info 6    [14:21:41.037] For info: /Users/jessekelly/projects/dynamic-pwa/src/index.tsx :: Config file name: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json
-Info 7    [14:21:41.037] Creating configuration project /Users/jessekelly/projects/dynamic-pwa/tsconfig.json
-Info 8    [14:21:41.046] Config: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json : {
+Info 0    [14:41:01.568] Starting TS Server
+Info 1    [14:41:01.569] Version: 4.4.3
+Info 2    [14:41:01.569] Arguments: /Users/jessekelly/.nvm/versions/node/v14.17.0/bin/node /Users/jessekelly/projects/dynamic-pwa/node_modules/.bin/tsserver --logFile /Users/jessekelly/projects/dynamic-pwa/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/lc/y2dbm6r52hj5ljsq41phk2sm0000gn/T/aca29b7d2a8831f1ea4f25a7e6ddfc42/tscancellation*
+Info 3    [14:41:01.569] Platform: darwin NodeVersion: 14 CaseSensitive: false
+Info 4    [14:41:01.569] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [14:41:01.577] Search path: /Users/jessekelly/projects/dynamic-pwa/lambda
+Info 6    [14:41:01.577] For info: /Users/jessekelly/projects/dynamic-pwa/lambda/manifest.ts :: Config file name: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json
+Info 7    [14:41:01.577] Creating configuration project /Users/jessekelly/projects/dynamic-pwa/tsconfig.json
+Info 8    [14:41:01.586] Config: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json : {
  "rootNames": [
   "/Users/jessekelly/projects/dynamic-pwa/src/App.test.tsx",
   "/Users/jessekelly/projects/dynamic-pwa/src/App.tsx",
@@ -40,15 +40,71 @@ Info 8    [14:21:41.046] Config: /Users/jessekelly/projects/dynamic-pwa/tsconfig
   "configFilePath": "/Users/jessekelly/projects/dynamic-pwa/tsconfig.json"
  }
 }
-Info 9    [14:21:41.088] Starting updateGraphWorker: Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json
-Info 10   [14:21:42.035] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 946.4612500006333ms
-Info 11   [14:21:42.035] Project '/Users/jessekelly/projects/dynamic-pwa/tsconfig.json' (Configured)
-Info 12   [14:21:42.035] 	Files (263)
+Info 9    [14:41:01.626] Starting updateGraphWorker: Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json
+Info 10   [14:41:02.584] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 957.2098749997094ms
+Info 11   [14:41:02.584] Project '/Users/jessekelly/projects/dynamic-pwa/tsconfig.json' (Configured)
+Info 12   [14:41:02.584] 	Files (263)
 
-Info 13   [14:21:42.035] -----------------------------------------------
-Info 14   [14:21:42.050] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 15   [14:21:42.144] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 93.27299999911338ms
-Info 16   [14:21:42.144] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 17   [14:21:42.144] 	Files (43)
+Info 13   [14:41:02.584] -----------------------------------------------
+Info 14   [14:41:02.593] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 15   [14:41:02.986] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 392.55141699966043ms
+Info 16   [14:41:02.986] Project '/dev/null/inferredProject1*' (Inferred)
+Info 17   [14:41:02.986] 	Files (159)
 
-Info 18   [14:21:42.144] -----------------------------------------------
+Info 18   [14:41:02.986] -----------------------------------------------
+Info 19   [14:41:05.224] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 20   [14:41:05.253] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 28.467874999158084ms
+Info 21   [14:41:05.253] Different program with same set of files
+Info 22   [14:41:05.254] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 23   [14:41:05.266] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 11.493208000436425ms
+Info 24   [14:41:05.266] Different program with same set of files
+Info 25   [14:41:05.653] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [14:41:05.668] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 15.156041000038385ms
+Info 27   [14:41:05.668] Different program with same set of files
+Info 28   [14:41:05.671] getCompletionData: Get current token: 0.03345800004899502
+Info 29   [14:41:05.671] getCompletionData: Is inside comment: 0.007708000019192696
+Info 30   [14:41:05.671] getCompletionData: Get previous token: 0.23462500050663948
+Info 31   [14:41:05.672] getCompletionsAtPosition: isCompletionListBlocker: 0.30733300000429153
+Info 32   [14:41:05.700] getExportInfoMap: cache miss or empty; calculating new results
+Info 33   [14:41:05.745] getExportInfoMap: done in 63.36995800025761 ms
+Info 34   [14:41:05.765] collectAutoImports: resolved 0 module specifiers, plus 106 ambient and 10 from cache
+Info 35   [14:41:05.765] collectAutoImports: response is incomplete
+Info 36   [14:41:05.765] collectAutoImports: 10.63983300048858
+Info 37   [14:41:05.765] getCompletionData: Semantic work: 92.90920799970627
+Info 38   [14:41:05.775] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 10.356499999761581
+Info 39   [14:41:05.791] getCompletionData: Get current token: 0.010666999965906143
+Info 40   [14:41:05.791] getCompletionData: Is inside comment: 0.0022499999031424522
+Info 41   [14:41:05.791] getCompletionData: Get previous token: 0.04495899938046932
+Info 42   [14:41:05.791] getCompletionsAtPosition: isCompletionListBlocker: 0.0018330002203583717
+Info 43   [14:41:05.799] getExportInfoMap: cache hit
+Info 44   [14:41:05.809] collectAutoImports: resolved 0 module specifiers, plus 106 ambient and 10 from cache
+Info 45   [14:41:05.809] collectAutoImports: response is incomplete
+Info 46   [14:41:05.809] collectAutoImports: 5.314499999396503
+Info 47   [14:41:05.809] getCompletionData: Semantic work: 17.446917000226676
+Info 48   [14:41:05.816] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 6.962958000600338
+Info 49   [14:41:05.819] getCompletionData: Get current token: 0.01075000036507845
+Info 50   [14:41:05.819] getCompletionData: Is inside comment: 0.001875000074505806
+Info 51   [14:41:05.819] getCompletionData: Get previous token: 0.04433299973607063
+Info 52   [14:41:05.819] getCompletionsAtPosition: isCompletionListBlocker: 0.002167000435292721
+Info 53   [14:41:05.825] getExportInfoMap: cache hit
+Info 54   [14:41:05.834] collectAutoImports: resolved 0 module specifiers, plus 106 ambient and 10 from cache
+Info 55   [14:41:05.834] collectAutoImports: response is incomplete
+Info 56   [14:41:05.834] collectAutoImports: 4.407041999511421
+Info 57   [14:41:05.834] getCompletionData: Semantic work: 14.882625000551343
+Info 58   [14:41:05.842] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.114458000287414
+Info 59   [14:41:05.851] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 60   [14:41:05.856] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 4.379083000123501ms
+Info 61   [14:41:05.856] Different program with same set of files
+Info 62   [14:41:06.194] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 63   [14:41:06.215] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 20.423917000181973ms
+Info 64   [14:41:06.215] Different program with same set of files
+Info 65   [14:41:06.216] getCompletionData: Get current token: 0.029374999925494194
+Info 66   [14:41:06.216] getCompletionData: Is inside comment: 0.008208000101149082
+Info 67   [14:41:06.216] getCompletionData: Get previous token: 0.1417500004172325
+Info 68   [14:41:06.216] getCompletionsAtPosition: isCompletionListBlocker: 0.009833999909460545
+Info 69   [14:41:06.236] getExportInfoMap: cache hit
+Info 70   [14:41:06.255] collectAutoImports: resolved 0 module specifiers, plus 4 ambient and 0 from cache
+Info 71   [14:41:06.255] collectAutoImports: response is complete
+Info 72   [14:41:06.255] collectAutoImports: 7.350832999683917
+Info 73   [14:41:06.255] getCompletionData: Semantic work: 38.81420799996704
+Info 74   [14:41:06.263] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 7.7823750004172325

@@ -8,7 +8,7 @@ const getManifest = (name: string, scope: string) => ({
     background_color: "#ffffff",
     theme_color: "#ffffff",
     display: "standalone",
-    start_url: `/`,
+    start_url: scope,
     scope,
     icons: [
         {
