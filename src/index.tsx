@@ -4,9 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import {Helmet} from "react-helmet";
+
+const manifestUrl = (name: string) => `.netlify/functions/manifest?name=${name}`
 
 ReactDOM.render(
   <React.StrictMode>
+      <Helmet>
+          <link id="teams_manifest" rel="manifest" href={manifestUrl("Star")}/>
+      </Helmet>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

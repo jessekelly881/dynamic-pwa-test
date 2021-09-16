@@ -1,8 +1,10 @@
+import { Handler } from '@netlify/functions'
 
-const manifest = {
-    name: "Test",
-    short_name: "Test",
-    description: "Test",
+
+const getManifest = (name: string) => ({
+    name,
+    short_name: name,
+    description: name,
     background_color: "#ffffff",
     theme_color: "#ffffff",
     display: "standalone",
@@ -19,14 +21,16 @@ const manifest = {
             "type": "image/webp"
         },
     ]
-}
+})
 
-exports.handler = async function() {
+const handler: Handler = async function(e) {
     return {
         statusCode: 200,
-        body: JSON.stringify(manifest),
+        body: JSON.stringify(getManifest(e.queryStringParameters["name"] || "No Name")),
         headers: {
             "Content-Type": "text/html"
         }
     };
 }
+
+export { handler }
