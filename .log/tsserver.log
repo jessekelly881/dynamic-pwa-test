@@ -1892,3 +1892,69 @@ Info 1823 [11:16:32.782] DirectoryWatcher:: Triggered with /Users/jessekelly/pro
 Info 1824 [11:16:32.786] Elapsed:: 0.01250004768371582ms DirectoryWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/node_modules/.cache/terser-webpack-plugin/index-v5/9f/ff :: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
 Info 1825 [11:16:32.786] DirectoryWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/node_modules/.cache/terser-webpack-plugin/index-v5/9f/ff/f146501f71234f85ea4d9fef6f4d913045925c14d8c312b3a5b37e69f0b8 :: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
 Info 1826 [11:16:32.786] Elapsed:: 0.007624983787536621ms DirectoryWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/node_modules/.cache/terser-webpack-plugin/index-v5/9f/ff/f146501f71234f85ea4d9fef6f4d913045925c14d8c312b3a5b37e69f0b8 :: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 1827 [12:21:19.478] FileWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/src/index.tsx 1:: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/src/index.tsx 500 undefined WatchType: Closed Script info
+Info 1828 [12:21:19.551] Elapsed:: 69.43270802497864ms FileWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/src/index.tsx 1:: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/src/index.tsx 500 undefined WatchType: Closed Script info
+Info 1829 [12:21:19.823] Starting updateGraphWorker: Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json
+Info 1830 [12:21:20.305] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 481.3975830078125ms
+Info 1831 [12:21:20.305] Different program with same set of files
+Info 1832 [12:21:20.306] DirectoryWatcher:: Triggered with /users/jessekelly/projects/dynamic-pwa/node_modules/.cache/babel-loader/aae97103def2c079566939c4d039c469.json :: WatchInfo: /users/jessekelly/projects/dynamic-pwa/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 1833 [12:21:20.307] Elapsed:: 0.08883297443389893ms DirectoryWatcher:: Triggered with /users/jessekelly/projects/dynamic-pwa/node_modules/.cache/babel-loader/aae97103def2c079566939c4d039c469.json :: WatchInfo: /users/jessekelly/projects/dynamic-pwa/node_modules 1 undefined WatchType: node_modules for closed script infos and package.jsons affecting module specifier cache
+Info 1834 [12:21:20.309] DirectoryWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/node_modules/.cache/babel-loader/aae97103def2c079566939c4d039c469.json :: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/node_modules 1 undefined Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json WatchType: Failed Lookup Locations
+Info 1835 [12:21:20.310] Elapsed:: 0.33808398246765137ms DirectoryWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/node_modules/.cache/babel-loader/aae97103def2c079566939c4d039c469.json :: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/node_modules 1 undefined Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json WatchType: Failed Lookup Locations
+Info 1836 [12:21:20.311] DirectoryWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/node_modules/.cache/babel-loader/aae97103def2c079566939c4d039c469.json :: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 1837 [12:21:20.311] Elapsed:: 0.011541008949279785ms DirectoryWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/node_modules/.cache/babel-loader/aae97103def2c079566939c4d039c469.json :: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 1838 [12:21:22.051] Before ensureProjectForOpenFiles:
+Info 1839 [12:21:22.053] After ensureProjectForOpenFiles:
+Info 1840 [12:21:22.057] got projects updated in background, updating diagnostics for /Users/jessekelly/projects/dynamic-pwa/lambda/manifest.ts
+Info 1841 [12:23:41.821] FileWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/src/index.tsx 1:: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/src/index.tsx 500 undefined WatchType: Closed Script info
+Info 1842 [12:23:41.836] Elapsed:: 8.464125037193298ms FileWatcher:: Triggered with /Users/jessekelly/projects/dynamic-pwa/src/index.tsx 1:: WatchInfo: /Users/jessekelly/projects/dynamic-pwa/src/index.tsx 500 undefined WatchType: Closed Script info
+Info 1843 [12:23:42.089] Starting updateGraphWorker: Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json
+Info 1844 [12:23:42.121] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/dynamic-pwa/tsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 30.160583972930908ms
+Info 1845 [12:23:44.341] Before ensureProjectForOpenFiles:
+Info 1846 [12:23:44.343] After ensureProjectForOpenFiles:
+Info 1847 [12:23:44.344] got projects updated in background, updating diagnostics for /Users/jessekelly/projects/dynamic-pwa/lambda/manifest.ts
+Info 1848 [12:24:49.383] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1849 [12:24:50.134] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 84 structureChanged: false structureIsReused:: Completely Elapsed: 743.5179580450058ms
+Info 1850 [12:24:50.134] Different program with same set of files
+Info 1851 [12:25:13.461] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1852 [12:25:13.501] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 85 structureChanged: false structureIsReused:: Completely Elapsed: 39.45062506198883ms
+Info 1853 [12:25:13.501] Different program with same set of files
+Info 1854 [12:25:22.704] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1855 [12:25:22.728] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 86 structureChanged: false structureIsReused:: Completely Elapsed: 22.418290972709656ms
+Info 1856 [12:25:22.728] Different program with same set of files
+Info 1857 [12:25:24.206] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1858 [12:25:24.228] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 87 structureChanged: false structureIsReused:: Completely Elapsed: 22.27941608428955ms
+Info 1859 [12:25:24.228] Different program with same set of files
+Info 1860 [12:25:31.986] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1861 [12:25:32.014] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 88 structureChanged: false structureIsReused:: Completely Elapsed: 27.682125091552734ms
+Info 1862 [12:25:32.014] Different program with same set of files
+Info 1863 [12:25:32.871] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1864 [12:25:32.890] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 89 structureChanged: false structureIsReused:: Completely Elapsed: 19.71720802783966ms
+Info 1865 [12:25:32.891] Different program with same set of files
+Info 1866 [12:25:33.476] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1867 [12:25:33.496] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 90 structureChanged: false structureIsReused:: Completely Elapsed: 19.751083970069885ms
+Info 1868 [12:25:33.496] Different program with same set of files
+Info 1869 [12:25:33.941] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1870 [12:25:33.955] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 91 structureChanged: false structureIsReused:: Completely Elapsed: 14.137708067893982ms
+Info 1871 [12:25:33.955] Different program with same set of files
+Info 1872 [12:25:34.347] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1873 [12:25:34.361] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 92 structureChanged: false structureIsReused:: Completely Elapsed: 13.475124955177307ms
+Info 1874 [12:25:34.361] Different program with same set of files
+Info 1875 [12:25:34.747] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1876 [12:25:34.760] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 93 structureChanged: false structureIsReused:: Completely Elapsed: 13.114166975021362ms
+Info 1877 [12:25:34.760] Different program with same set of files
+Info 1878 [12:25:35.697] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1879 [12:25:35.710] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 94 structureChanged: false structureIsReused:: Completely Elapsed: 13.043416976928711ms
+Info 1880 [12:25:35.710] Different program with same set of files
+Info 1881 [12:25:37.462] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1882 [12:25:37.487] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 95 structureChanged: false structureIsReused:: Completely Elapsed: 24.353624939918518ms
+Info 1883 [12:25:37.487] Different program with same set of files
+Info 1884 [12:25:39.505] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1885 [12:25:39.518] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 96 structureChanged: false structureIsReused:: Completely Elapsed: 12.907957911491394ms
+Info 1886 [12:25:39.518] Different program with same set of files
+Info 1887 [12:25:41.368] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1888 [12:25:41.378] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 97 structureChanged: false structureIsReused:: Completely Elapsed: 10.392875075340271ms
+Info 1889 [12:25:41.378] Different program with same set of files
+Info 1890 [12:25:46.056] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 1891 [12:25:46.075] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 98 structureChanged: false structureIsReused:: Completely Elapsed: 18.06933307647705ms
+Info 1892 [12:25:46.075] Different program with same set of files

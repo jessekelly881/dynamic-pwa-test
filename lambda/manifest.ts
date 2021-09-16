@@ -6,7 +6,7 @@ const manifest = {
     background_color: "#ffffff",
     theme_color: "#ffffff",
     display: "standalone",
-    start_url: `/entity/?appId=${1}&enityId=${1}&name=${"Test"}`,
+    start_url: `/`,
     icons: [
         {
             "src": "/android-chrome-192x192.png",
