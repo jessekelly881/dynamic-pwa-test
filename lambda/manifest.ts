@@ -9,21 +9,15 @@ const manifest = {
     start_url: `/`,
     icons: [
         {
-            "src": "/android-chrome-192x192.png",
+            "src": "https://picsum.photos/192/192.webp",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/webp"
         },
         {
-            "src": "/android-chrome-512x512.png",
+            "src": "https://picsum.photos/512/512.webp",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/webp"
         },
-        {
-            "src": "/maskable_icon.png",
-            "sizes": "196x196",
-            "type": "image/png",
-            "purpose": "any maskable"
-        }
     ]
 }
 
