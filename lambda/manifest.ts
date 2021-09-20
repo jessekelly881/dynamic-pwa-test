@@ -7,7 +7,7 @@ const getManifest = (name: string, scope: string) => ({
     description: name,
     background_color: "#ffffff",
     theme_color: "#ffffff",
-    display: "standalone",
+    display: "fullscreen",
     start_url: scope,
     scope,
     icons: [
